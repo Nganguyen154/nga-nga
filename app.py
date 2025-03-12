@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-from pyngrok import ngrok
 
 # Load the pipeline from the pickle file
 with open('decision_tree_pipeline.pkl', 'rb') as file:
